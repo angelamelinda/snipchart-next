@@ -1,0 +1,24 @@
+{
+  "name": "test-next",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "next": "^9.2.2",
+    "nextjs-sitemap-generator": "^0.5.0",
+    "node-sass": "^4.13.1",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  }
+}
